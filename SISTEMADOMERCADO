@@ -1,0 +1,31 @@
+package App;
+// 2. Cria a classe
+public class Mercado {
+// 3. Metado Principal
+	public static void main(String[] args) {
+		// Declaracao de Variaveis
+		// Dados do Produto
+		String nomeProduto = "Arroz Camil 5kg";
+		double precoProduto = 27.90;
+		int estoqueProduto = 120;
+		
+		// Dados do Cliente
+		String nomeCliente = "Ana Caroline";
+		int idadeCliente = 35;
+		char generoCliente = 'F';
+		
+		// Dados do Caixa
+		int numeroCaixa = 3;
+		boolean caixaAberto = true;
+		
+		//Exibir as informacoes
+		System.out.println("=== SISTEMA DE MERCADO ===");
+		System.out.println("Produto " + nomeProduto);
+		System.out.println("Preço " + precoProduto);
+		System.out.println("Estoque " + estoqueProduto + " Unidades");
+		System.out.println("Cliente " + nomeCliente);
+		System.out.println("Cliente " + nomeCliente + " ("+ idadeCliente + " anos)");
+		System.out.println("Caixa n " + numeroCaixa + "Aberto? " + caixaAberto);
+	} 
+
+}
