@@ -1,6 +1,6 @@
 package App;
 
-import java.util.Scanner
+import java.util.Scanner;
 
 public class FreteDesconto {
     public static void main(String[] args) {
